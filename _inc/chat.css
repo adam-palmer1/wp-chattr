@@ -1,0 +1,69 @@
+.container {
+	border: 2px dotted #AAA;
+	height: auto;
+}
+
+.clear { clear: both; }
+
+#left_col {
+	float: left;
+	width: 19%
+}
+
+#right_col {
+	float: left;
+	margin-left: 8px;
+	width: 79%;
+}
+
+#message {
+    background-color: #6781B2;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 25px;
+    height: 460px;
+    overflow: hidden;
+}
+
+#chatform, #typing, #chatters, #status {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 25px;
+    background-color: #FFEDC6;
+}
+
+#status, #typing {
+    height: 48px;
+    background-color: #B2985E;
+}
+
+#chatters-ul li {
+    background-color: #FFF5DF;
+    padding: 2px 10px 2px 10px;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    border-radius: 25px;
+}
+
+#chatters-ul {
+        list-style-type: none;
+	padding-left: 0px;
+}
+
+#chatters {
+	height: 526px;
+	overflow: hidden;
+}
+
+.individual {
+    background-color: #C6DAFF;
+    border-radius: 25px;
+    padding: 2px 2px 2px 10px; 
+    margin: 10px 10px 10px 10px;
+}
+
+#msg {
+	width: 100%;
+	border: 2px dotted #AAA;
+	font-size: 18px;
+}
