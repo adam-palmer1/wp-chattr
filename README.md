@@ -1,6 +1,11 @@
-wp-chattr
+Description:
+============
+wp-chattr: Wordpress chat using jQuery + Node.JS
 
-Wordpress chat using jQuery + Node.JS
+Release:
+========
+v1.0.0
+Alpha release, many bugs and security issues likely present.
 
 Wordpress Setup
 ===============
@@ -14,3 +19,8 @@ Server setup:
 cd server
 npm install
 node webchat
+
+Known issues:
+=============
+No username security or authentication. Nick name collisions possible.
+No error catching on server side
